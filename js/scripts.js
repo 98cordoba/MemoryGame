@@ -1,3 +1,4 @@
+/* Initial References */
 var myCards = document.getElementById('container');
 var resultsArray = [];
 var counter = 0;
@@ -10,6 +11,7 @@ var Interval;
 var images = ['sass', 'git', 'gulp', 'css', 'grunt'];
 var clone = images.slice(0);
 var cards = images.contact(clone);
+/* Funciones */
 function shuffle(o) {
     for (var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x) {
         return o;
